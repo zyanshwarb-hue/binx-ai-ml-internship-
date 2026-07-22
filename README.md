@@ -5,16 +5,18 @@
 This repository contains my Week 1 deliverables for Phase 1 of the internship: setting up a
 reproducible Python environment and building fluency in NumPy, Pandas, and Matplotlib.
 
-## 📁 Repository Structure
+## 📂 Repository Structure
+
 ```
 week1-internship/
-├── day1_environment_setup.ipynb     # Environment setup & Jupyter workflow
-├── day2_python_fundamentals.ipynb   # Core Python: data types, control flow, functions, OOP
-├── day3_numpy.ipynb                 # NumPy: arrays, indexing, broadcasting
-├── day4_pandas.ipynb                # Pandas: loading, cleaning, filtering, groupby
-├── day5_mini_notebook.ipynb         # Integrated NumPy + Pandas + Matplotlib notebook
-├── requirements.txt                 # Exact package versions for reproducibility
-└── README.md                        # This file
+├── day1_environment_setup.ipynb      # Environment setup & Jupyter workflow
+├── day2_python_fundamentals.ipynb    # Core Python: data types, control flow, functions, OOP
+├── day3_numpy.ipynb                  # NumPy: arrays, indexing, broadcasting
+├── day3_numpy_extra_practice.ipynb   # Extra self-practice exercises (NumPy)
+├── day4_pandas.ipynb                 # Pandas: loading, cleaning, filtering, groupby
+├── day5_mini_notebook.ipynb          # Integrated NumPy + Pandas + Matplotlib notebook
+├── requirements.txt                  # Exact package versions for reproducibility
+└── README.md                         # This file
 ```
 
 ## ⚙️ Environment Setup
