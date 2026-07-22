@@ -3,17 +3,28 @@
 ![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-013243)
 ![Status](https://img.shields.io/badge/Status-Day%204%20of%205-orange)
 
-# Week 1 — Python & Data Science Foundations
+<div align="center">
+
+# 🚀 Week 1 — Python & Data Science Foundations
+
 **BinX Tech — AI & Machine Learning Internship Program**
 
-## 📌 Overview
-This repository contains my Week 1 deliverables for Phase 1 of the internship: setting up a
-reproducible Python environment and building fluency in NumPy, Pandas, and Matplotlib.
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=flat&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-013243?style=flat&logo=numpy&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Week%201%20Complete-success)
 
-## 🔍 Highlights
-- Titanic analysis (Day 4): 1st class passengers had a ~2.5x higher survival rate than 3rd class.
-- [Day 5 insight will go here once completed]
-## 📂 Repository Structure
+</div>
+
+---
+
+## 📌 Overview
+
+This repository contains my **Week 1** deliverables for Phase 1 of the internship: setting up a reproducible Python environment and building fluency in **NumPy**, **Pandas**, and core Python — through daily notebooks and extra self-practice exercises.
+
+---
+
+## 🗂️ Repository Structure
 
 ```
 week1-internship/
