@@ -64,6 +64,7 @@ jupyter notebook
 - [x] Day 3 extra practice: real-world NumPy applications
 - [x] Pandas notebook — load, clean, filter, aggregate a real dataset (Day 4)
 - [x] All notebooks committed with clear commit messages
+- [ ] Day 5 notebook (in progress)
 
 ---
 
