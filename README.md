@@ -11,10 +11,8 @@ This repository contains my Week 1 deliverables for Phase 1 of the internship: s
 reproducible Python environment and building fluency in NumPy, Pandas, and Matplotlib.
 
 ## 🔍 Highlights
-
 - Titanic analysis (Day 4): 1st class passengers had a ~2.5x higher survival rate than 3rd class.
 - [Day 5 insight will go here once completed]
-- 
 ## 📂 Repository Structure
 
 ```
