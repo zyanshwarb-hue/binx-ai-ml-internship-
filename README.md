@@ -1,7 +1,7 @@
 ![Python](https://img.shields.io/badge/Python-3.10+-blue)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458)
 ![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-013243)
-![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
+![Status](https://img.shields.io/badge/Status-Day%204%20of%205-orange)
 
 # Week 1 — Python & Data Science Foundations
 **BinX Tech — AI & Machine Learning Internship Program**
