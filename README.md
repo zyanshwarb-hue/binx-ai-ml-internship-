@@ -30,8 +30,8 @@ jupyter notebook
 ## ✅ Week 1 Deliverables Checklist
 - [x] Reproducible Python environment with `requirements.txt`
 - [x] Python fundamentals notebook (functions, list comprehensions, a class)
-- [ ] NumPy notebook (array creation, slicing, boolean masking, broadcasting)
-- [ ] Pandas notebook (load, clean, filter, aggregate a real dataset)
+- [X] NumPy notebook (array creation, slicing, boolean masking, broadcasting)
+- [X] Pandas notebook (load, clean, filter, aggregate a real dataset)
 - [ ] Week 1 integrated mini-notebook (NumPy + Pandas + Matplotlib, 3+ labeled plots)
 - [ ] All notebooks committed with clear commit messages
 
