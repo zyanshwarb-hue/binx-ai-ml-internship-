@@ -1,3 +1,8 @@
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458)
+![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-013243)
+![Status](https://img.shields.io/badge/Status-Day%204%20of%205-orange)
+
 # Week 1 — Python & Data Science Foundations
 **BinX Tech — AI & Machine Learning Internship Program**
 
@@ -5,6 +10,9 @@
 This repository contains my Week 1 deliverables for Phase 1 of the internship: setting up a
 reproducible Python environment and building fluency in NumPy, Pandas, and Matplotlib.
 
+## 🔍 Highlights
+- Titanic analysis (Day 4): 1st class passengers had a ~2.5x higher survival rate than 3rd class.
+- [Day 5 insight will go here once completed]
 ## 📂 Repository Structure
 
 ```
@@ -30,8 +38,8 @@ jupyter notebook
 ## ✅ Week 1 Deliverables Checklist
 - [x] Reproducible Python environment with `requirements.txt`
 - [x] Python fundamentals notebook (functions, list comprehensions, a class)
-- [ ] NumPy notebook (array creation, slicing, boolean masking, broadcasting)
-- [ ] Pandas notebook (load, clean, filter, aggregate a real dataset)
+- [X] NumPy notebook (array creation, slicing, boolean masking, broadcasting)
+- [X] Pandas notebook (load, clean, filter, aggregate a real dataset)
 - [ ] Week 1 integrated mini-notebook (NumPy + Pandas + Matplotlib, 3+ labeled plots)
 - [ ] All notebooks committed with clear commit messages
 
