@@ -8,6 +8,7 @@
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=flat&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-013243?style=flat&logo=numpy&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Week%201%20Complete-success)
+<<<<<<< Updated upstream
 
 </div>
 
@@ -20,19 +21,20 @@ This repository contains my **Week 1** deliverables for Phase 1 of the internshi
 ---
 
 ## 🗂️ Repository Structure
+=======
 
-```
-week1-internship/
-├── day1_environment_setup.ipynb      # Environment setup & Jupyter workflow
-├── day2_python_fundamentals.ipynb    # Core Python: data types, control flow, functions, OOP
-├── day3_numpy.ipynb                  # NumPy: arrays, indexing, broadcasting
-├── day3_numpy_extra_practice.ipynb   # Extra self-practice exercises (NumPy)
-├── day4_pandas.ipynb                 # Pandas: loading, cleaning, filtering, groupby
-├── day5_mini_notebook.ipynb          # Integrated NumPy + Pandas + Matplotlib notebook
-├── requirements.txt                  # Exact package versions for reproducibility
-└── README.md                         # This file
-```
+</div>
 
+---
+
+## 📌 Overview
+
+This repository contains my **Week 1** deliverables for Phase 1 of the internship: setting up a reproducible Python environment and building fluency in **NumPy**, **Pandas**, and core Python — through daily notebooks and extra self-practice exercises.
+>>>>>>> Stashed changes
+
+---
+
+<<<<<<< Updated upstream
 ---
 
 ## 🔍 Highlights
@@ -78,3 +80,6 @@ jupyter notebook
 ## 👤 Author
 
 **Intern** — BinX Tech AI/ML Internship Program
+=======
+## 🗂️ Repository Structure
+>>>>>>> Stashed changes
