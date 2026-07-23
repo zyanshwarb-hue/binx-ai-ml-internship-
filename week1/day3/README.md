@@ -1,101 +1,52 @@
-
 <div align="center">
 
+# 🔢 Day 3 — NumPy Fundamentals
+### Arrays · Slicing · Boolean Masking · Broadcasting
 
-
-\# 🐼 Day 4 — Pandas \& Real-World Data
-
-\### Load · Clean · Filter · Aggregate
-
-
-
-!\[Status](https://img.shields.io/badge/status-complete-brightgreen)
-
-!\[Pandas](https://img.shields.io/badge/library-Pandas-150458)
-
-
+![Status](https://img.shields.io/badge/status-complete-brightgreen)
+![NumPy](https://img.shields.io/badge/library-NumPy-013243)
 
 </div>
 
+---
 
-
-\---
-
-
-
-\## 📂 Contents
-
-
+## 📂 Contents
 
 | File | Description |
-
 |---|---|
+| `day3.ipynb` | NumPy array creation, indexing, masking, and broadcasting practice |
 
-| `day4.ipynb` | Titanic dataset: loading, cleaning, filtering, and grouping |
+---
 
-| `train.csv` | Raw Titanic passenger dataset |
+## 🔍 What I Practiced
 
+| Concept | What I Practiced |
+|---|---|
+| Array Creation | `arange()` and `reshape()` to build a 4x4 array |
+| Indexing & Slicing | Extracting rows and columns |
+| Boolean Masking | Filtering values above the mean |
+| Broadcasting | Adding a 1D array across all rows of a 2D array |
+| Verification | Confirmed broadcasting results by hand |
 
+---
 
-\---
+## 💡 Key Takeaway
 
+> NumPy's power comes from thinking in **arrays, not loops** — slicing, masking, and
+> broadcasting let you transform entire datasets in a single line of code, which is
+> exactly why it's the backbone of every ML pipeline.
 
+---
 
-\## 🔍 What I Practiced
+## 🧰 Tools
 
+`NumPy` `Jupyter Notebook`
 
-
-1\. \*\*Load \& Inspect\*\* — Loaded the Titanic dataset and examined shape, columns, and data types
-
-2\. \*\*Clean\*\* — Handled missing values with a documented strategy per column
-
-3\. \*\*Filter\*\* — Explored subsets of passengers by condition (e.g., age, class)
-
-4\. \*\*Aggregate\*\* — Used `groupby` to summarize data by category
-
-
-
-\## 🧹 Cleaning Decisions
-
-
-
-| Column | Missing % | Action | Reason |
-
-|---|---|---|---|
-
-| `Cabin` | 77% | Dropped column | Too much missing data to reliably impute |
-
-| `Age` | 20% | Filled with mean | Manageable amount, preserves the data |
-
-| `Embarked` | <1% | Dropped rows | Only 2 rows affected, safe to remove |
-
-
-
-\---
-
-
-
-\## 🧰 Tools
-
-
-
-`Pandas` `Jupyter Notebook`
-
-
-
-\---
-
-
+---
 
 <div align="center">
 
-
-
-\*\*— Zayan\*\*  
-
-\*BinX Tech AI/ML Internship — Week 1, Day 4\*
-
-
+**— Zayan**  
+*BinX Tech AI/ML Internship — Week 1, Day 3*
 
 </div>
-
