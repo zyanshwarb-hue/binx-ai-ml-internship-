@@ -61,30 +61,39 @@ By the end of this week, you should be able to:
 
 ```text
 week2/
-├── day1/                       📐 Descriptive statistics
+├── day1/                              📐 Descriptive statistics
 │   └── README_DAY_1.md
-├── day2/                       🎲 Probability & distributions
+├── day2/                              🎲 Probability & distributions
 │   ├── README_DAY_2.md
 │   └── day2.ipynb
-├── day3/                       🧮 Linear algebra for ML
+├── day3/                              🧮 Linear algebra for ML
+│   ├── README.md
 │   └── day3.ipynb
-├── day4/                       📊 EDA Part 1 — distributions & outliers
+├── day4/                              📊 EDA Part 1 — distributions & outliers
 │   ├── README_DAY_4.md
 │   └── day4.ipynb
-├── day5/                       🔥 EDA Part 2 — correlation & storytelling
+├── day5/                              🔥 EDA Part 2 — correlation & storytelling
 │   ├── README.md
-│   └── day5.ipynb
-├── Week2_Project.ipynb         🏆 Final Week 2 project — full EDA notebook
-├── requirements.txt            📋 Python dependencies
-└── README.md                   📖 You are here
+│   └── Week2_Day5_EDA_Notebook.ipynb
+├── eda-project/                       🏆 Final Week 2 project — its own folder
+│   └── EDA_Correlation_Analysis.ipynb
+├── requirements.txt                   📋 Python dependencies
+└── README.md                          📖 You are here
 ```
+
+Each `dayN/` folder is that day's **lesson + hands-on lab notebook** — practice work for that
+specific topic. `eda-project/` is separate on purpose: it's the **milestone deliverable**, a
+polished, standalone notebook your mentor grades — kept out of the daily folders so it reads
+as a finished project, not just another day's exercise (the same pattern `week1/cve-project/`
+already uses).
 
 ---
 
 ## 🏆 Week 2 Project
 
-**[`Week2_Project.ipynb`](./Week2_Project.ipynb)** is the capstone deliverable for the week —
-a complete, narrated EDA notebook that ties every day together:
+**[`eda-project/EDA_Correlation_Analysis.ipynb`](./eda-project/EDA_Correlation_Analysis.ipynb)**
+is the capstone deliverable for the week, kept in its own folder so it stands on its own as a
+finished project — a complete, narrated EDA notebook that ties every day together:
 
 - 📈 Bivariate analysis (scatter plots, grouped box plots)
 - 🔥 Correlation matrix & heatmap
