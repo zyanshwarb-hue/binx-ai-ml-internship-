@@ -49,7 +49,7 @@ By the end of this week, you should be able to:
 
 | Day | Folder | Hours | Focus |
 |---|---|---|---|
-| **1** | [`day1/`](./day1) | 8 hrs | 📐 Descriptive statistics — central tendency, spread, and what they mean |
+| **1** | [`day1/`](./day1) | 8 hrs | 📐 Descriptive statistics — central tendency, spread, and what they mean *(+ bonus practice notebook)* |
 | **2** | [`day2/`](./day2) | 8 hrs | 🎲 Probability fundamentals — rules, conditional probability, Bayes' theorem, distributions |
 | **3** | [`day3/`](./day3) | 8 hrs | 🧮 Linear algebra for ML — vectors, matrices, dot products, matrix multiplication |
 | **4** | [`day4/`](./day4) | 8 hrs | 📊 EDA Part 1 — univariate analysis, distributions, outlier detection (Seaborn) |
@@ -62,7 +62,9 @@ By the end of this week, you should be able to:
 ```text
 week2/
 ├── day1/                              📐 Descriptive statistics
-│   └── README_DAY_1.md
+│   ├── README_DAY_1.md
+│   ├── day1.ipynb                     — core lesson notebook
+│   └── day1_extra_practice_diamonds.ipynb   — bonus practice notebook
 ├── day2/                              🎲 Probability & distributions
 │   ├── README_DAY_2.md
 │   └── day2.ipynb
@@ -80,6 +82,9 @@ week2/
 ├── requirements.txt                   📋 Python dependencies
 └── README.md                          📖 You are here
 ```
+
+`day1/` is the only folder with a bonus notebook — `day1_extra_practice_diamonds.ipynb` is
+extra practice beyond the core lesson, not a required deliverable.
 
 Each `dayN/` folder is that day's **lesson + hands-on lab notebook** — practice work for that
 specific topic. `eda-project/` is separate on purpose: it's the **milestone deliverable**, a
