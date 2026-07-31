@@ -115,12 +115,12 @@ Phase 3 capstone.
 
 By the end of Week 2, every intern must submit the following to their mentor and GitHub repo:
 
-- [ ] A **descriptive-statistics** notebook — central tendency & spread on a real dataset
-- [ ] A **probability** notebook — coin-flip simulations, a normal distribution, a conditional-probability check
-- [ ] A **linear-algebra** notebook — vectors, matrices, dot product, matrix multiplication for prediction
-- [ ] A **univariate EDA** notebook — distributions, box plots, documented outlier handling
-- [ ] The **complete Week 2 EDA notebook** (statistics + univariate + bivariate + correlation) with a data-storytelling narrative
-- [ ] All notebooks **committed to GitHub** with clear, descriptive commit messages
+- [X] A **descriptive-statistics** notebook — central tendency & spread on a real dataset
+- [X] A **probability** notebook — coin-flip simulations, a normal distribution, a conditional-probability check
+- [X] A **linear-algebra** notebook — vectors, matrices, dot product, matrix multiplication for prediction
+- [X] A **univariate EDA** notebook — distributions, box plots, documented outlier handling
+- [X] The **complete Week 2 EDA notebook** (statistics + univariate + bivariate + correlation) with a data-storytelling narrative
+- [X] All notebooks **committed to GitHub** with clear, descriptive commit messages
 
 ---
 
