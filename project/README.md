@@ -32,7 +32,8 @@ cardiac_project/
 ├── notebooks/
 │   └── cardiac_monitoring_analysis.ipynb   # full analysis, executed top-to-bottom
 ├── models/
-│   └── tuned_cardiac_pipeline.joblib       # final saved, tuned Pipeline
+│   ├── tuned_cardiac_pipeline.joblib       # final saved, tuned Pipeline (joblib format)
+│   └── final_pipeline.pkl                  # same pipeline, saved as .pkl for compatibility
 ├── outputs/
 │   └── *.png                      # all generated plots (EDA, confusion matrices, ROC, PCA, etc.)
 ├── src/
@@ -42,6 +43,18 @@ cardiac_project/
 ```
 
 ## ⚙️ Setup & Run Instructions
+
+> **Loading the saved pipeline (`models/final_pipeline.pkl` or `models/tuned_cardiac_pipeline.joblib`):**
+> Both files contain the same trained pipeline. Because the pipeline includes a custom
+> `engineer_features()` step, any script that loads it must first redefine that exact function
+> (see `src/data_utils.py`) before calling `joblib.load(...)` — otherwise Python cannot resolve it.
+> ```python
+> from src.data_utils import engineer_features   # must be importable before loading
+> import joblib
+> model = joblib.load("models/final_pipeline.pkl")
+> model.predict(new_patient_dataframe)
+> ```
+
 
 ```bash
 # 1. Create environment (Python 3.10+)
