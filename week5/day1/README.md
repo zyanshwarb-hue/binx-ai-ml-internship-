@@ -1,51 +1,37 @@
-# 🧪 Week 4 · Day 1 — Train / Validation / Test Splits
+# 🧠 Week 5 · Day 1 — K-Means Clustering
 
-**BinX Tech — AI & Machine Learning Internship Program**
-**Phase 2 · Week 4 of 10 · Day 1 of 5**
+BinX Tech — AI & Machine Learning Internship Program Phase 2 · Week 5 of 10 · Day 1 of 5
 
 ---
 
 ## 🎯 Learning Objectives
 
-- 🧠 Explain why a validation set is needed in addition to a test set.
-- ✂️ Create a correct three-way split in Scikit-learn.
-- 🚫 Explain why tuning against the test set produces misleading results.
+- 🎯 Understand how K-Means groups unlabeled data into clusters.
+- 📈 Use the Elbow Method to estimate the optimal number of clusters (k).
+- 🥈 Use the Silhouette Score to numerically validate cluster quality.
+- 🖼️ Visualize final clusters and interpret the cluster centers.
 
-## 📚 Key Topics Covered
+## 📘 Key Topics Covered
 
-- The problem with tuning against a single test set
-- The three-way split: train, validation, test
-- Creating a three-way split in code with `train_test_split`
-- Why one validation set can still mislead (motivating cross-validation on Day 2)
+- How K-Means assigns points to clusters and updates centroids
+- The Elbow Method: plotting inertia vs. k to find the "bend"
+- The Silhouette Score: quantifying how well-separated clusters are
+- Visualizing final clusters with centroids
+- Interpreting cluster centers in terms of the original features
 
 ## 🛠️ What I Did
 
-- Loaded the Scikit-learn Breast Cancer dataset (569 samples, 30 features) and checked the class balance (357 benign / 212 malignant).
-- Built a **60/20/20 train/validation/test split** using two calls to `train_test_split` with a fixed `random_state=42` and `stratify` to keep class proportions balanced across all three sets.
-- Trained a `RandomForestClassifier` and tuned `max_depth` (`3, 5, 10, None`) by checking scores on the **validation set only** — the test set stayed untouched.
-- Selected the best `max_depth` based on validation F1, retrained on the training set, and evaluated the **final model on the test set exactly once**.
-- Added visualizations: class distribution (bar + pie), split composition chart, validation F1 comparison across `max_depth` values, and a confusion matrix for the final test result.
-- Wrote a Markdown reflection on why tuning against the test set would produce a misleading, overly optimistic score.
+- Generated a synthetic dataset (`feature_1`, `feature_2`) and scaled it.
+- Tried k values from 1 to 10 and computed inertia for each, then plotted the **Elbow Curve** — it bent sharply around k=3–4.
+- Computed **Silhouette Scores** for candidate k values: k=3 → 0.7332, k=4 → 0.7780, and picked **k=4** as the best fit.
+- Trained the final `KMeans` model with k=4 and visualized the clusters (scatter plot with centroids marked with red X's).
+- Summarized cluster centers:
+  - Cluster 0: upper-left region, moderate feature_1, high feature_2
+  - Cluster 1: lower-left region, most isolated cluster
+  - Cluster 2: only cluster with positive feature_1, right-center region
+  - Cluster 3: farthest-left cluster, upper region
+- Confirmed K-Means correctly recovered the 4 underlying groups the synthetic data was designed to have.
 
-## 📊 Results
+## ✅ Wrap-Up
 
-| Metric | Value |
-|---|---|
-| Best `max_depth` (chosen on validation set) | 3 |
-| Test F1 score | 0.9583 |
-| Test accuracy | 0.9474 |
-
-## ✅ Deliverable Checklist
-
-- [x] 60/20/20 split created with a fixed `random_state`
-- [x] One hyperparameter tuned using the validation set only
-- [x] Test set evaluated exactly once, at the end
-- [x] Markdown reflection written
-- [x] Notebook committed to GitHub with a clear commit message
-
-## 🧰 Tools Used
-
-Scikit-learn (`train_test_split`) · Pandas · Matplotlib · Seaborn · Jupyter Notebook
-
----
-📁 Files in this folder: `day1.ipynb`, `README_DAY_1.md`
+K-Means with k=4 (chosen via the Elbow Method + confirmed by Silhouette Score) produced four clean, well-separated clusters, matching the synthetic dataset's true structure. On real-world data, `feature_1`/`feature_2` would represent actual measurable attributes (e.g., income and age), and this same table would reveal meaningful customer segments.
