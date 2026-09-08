@@ -1,0 +1,13 @@
+filename,label
+normal_01.jpg,normal
+normal_02.jpg,normal
+normal_03.jpg,normal
+abnormal_heartbeat_01.jpg,abnormal_heartbeat
+abnormal_heartbeat_02.jpg,abnormal_heartbeat
+abnormal_heartbeat_03.jpg,abnormal_heartbeat
+myocardial_infarction_01.jpg,myocardial_infarction
+myocardial_infarction_02.jpg,myocardial_infarction
+myocardial_infarction_03.jpg,myocardial_infarction
+history_of_mi_01.jpg,history_of_mi
+history_of_mi_02.jpg,history_of_mi
+history_of_mi_03.jpg,history_of_mi
