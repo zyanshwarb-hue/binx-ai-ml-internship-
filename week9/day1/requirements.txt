@@ -1,0 +1,10 @@
+# Deployment environment for the Cardiac Monitoring capstone (Week 9 Sprint 4)
+# Frozen on Day 1 so Day 2's serving environment installs these exact versions.
+pandas==3.0.2
+numpy==2.4.4
+scikit-learn==1.8.0
+joblib==1.5.3
+fastapi==0.141.1
+uvicorn==0.46.0
+pydantic==2.13.3
+mlflow==3.16.0
