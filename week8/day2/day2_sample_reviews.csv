@@ -1,0 +1,21 @@
+review_id,review,sentiment
+1,"This medication did NOT help my symptoms at all, I was very disappointed.",negative
+2,"""Amazing results!"" My doctor said it's the best option for my condition.",positive
+3,I've been taking this for 3 months and it hasn't worked well for me.,negative
+4,"Great drug, no side effects, and it really helped with my anxiety.",positive
+5,The pills tasted awful and I felt worse after the first week.,negative
+6,"My doctor recommended this medication for chronic pain, and it really did help.",positive
+7,"No side effects so far, but I am not sure if it is actually working.",negative
+8,This drug helped reduce my pain significantly within the first week.,positive
+9,I stopped taking it because the side effects were too strong for me.,negative
+10,My doctor increased the dose and now the medication works much better.,positive
+11,"It did not help with my anxiety symptoms, unfortunately.",negative
+12,Amazing improvement in my symptoms after just one week on this medication.,positive
+13,"I felt no side effects, and my doctor is happy with the results.",positive
+14,"This medication caused severe side effects, so my doctor changed my dose.",negative
+15,"Great medication overall, it helped with both pain and anxiety.",positive
+16,I am disappointed because the dose increase did not help at all.,negative
+17,The doctor said the side effects should go away after the first week.,positive
+18,This drug really helped me manage my chronic symptoms every day.,positive
+19,No improvement in my condition even after increasing the dose.,negative
+20,My symptoms got much better once my doctor adjusted the medication dose.,positive
